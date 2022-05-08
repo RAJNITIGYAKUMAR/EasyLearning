@@ -1,0 +1,93 @@
+ *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+      }
+      .header{
+        color:#ffffff;
+        background:#101724;
+        position: sticky-top;
+      }
+      .welcome{
+        display: flex;
+        padding: 20px;
+        justify-content: space-between;
+      }
+      @media (max-width: 800px){
+        .welcome #welcome_user{
+          display: none;
+      }
+      a:hover{
+        color:blue;
+      }
+      }
+      .logoutChangepswd a{
+        margin:5px 10px;
+        text-decoration: none;
+        color: #ffffff;
+      }
+     
+  .sidebar{
+        width:20%;
+      background: #104a33;
+      padding: 5px;
+      height:100vh;
+      position: fixed;
+       padding: 5px;
+     
+    }
+        .sidebar ul li{
+      list-style: none;
+      padding:4px 0px;
+       margin-bottom:3px;
+       text-align: center;
+       border-bottom: 2px solid red; 
+
+     }
+    .sidebar ul li a{
+      color:#ffffff;
+      text-decoration: none;
+      outline:none;
+      display: block;
+
+      
+    } 
+    .sidebar ul li a:hover{
+          color:#e6ffe6;
+          background: #001a00;
+          font-size: 20px;
+    }  
+    .rightside{
+      width:80%;
+      position: relative;
+      left:20%;
+  }
+    .right_content{
+       text-align: center;
+      padding: 20px;
+     flex-wrap: wrap;
+      justify-content: space-around;
+    }
+    .rightside .card{
+      position: relative;
+      background: #6bc452;
+      margin:20px;
+    }
+    .rightside .card .card-body{
+      position: absolute;
+      top:30%;
+      
+      margin: auto;
+    }
+    @media(max-width:800px)
+    {
+      .sidebar{
+        display: none;
+
+      }
+     .rightside{
+      width:100%;
+      position:static;
+     
+  }
+    }

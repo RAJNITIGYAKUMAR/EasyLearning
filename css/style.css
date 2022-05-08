@@ -1,0 +1,264 @@
+*{
+	margin:0;
+	box-sizing: border-box;
+	padding: 0;
+}
+
+  #dashboard_button{
+    padding: 5px;
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+  }
+.searchbox{
+	background: #4d1933;
+	padding: 15px;
+	flex-wrap: wrap;
+}
+.search1{
+	width:40%;	
+}
+.search1 h3{
+	margin: 0px auto;
+    color: white;
+    
+    text-align: center;
+    padding: 10px;
+}
+.heading{
+	padding:10px;background:#4d1933; color:white;margin-top:30px; 
+  }
+.categories{
+	width:60%;
+	
+}
+.enroll{
+	background-color:#4d1933 !important;
+	color:white !important;
+  }
+
+  #ragister,#login{
+	  background-color: whitesmoke !important;
+  }
+@media (max-width: 800px) { 
+	.search1{
+		
+	    flex: 100%;
+	}
+	.searchbox{	
+		
+		text-align: center;
+	}
+	.categories{
+    
+     flex: 100%;
+    
+	}
+ }
+
+form select{
+	border: none;
+	width:30%;
+	padding: 10px;
+
+}
+form input{
+	width:50%;
+	padding: 10px;
+	border:none;
+	margin-left:-3px;
+	outline: none;
+}
+form button{
+	
+	margin-left:-2px;
+	border:none;
+}
+form button:focus {
+    outline: none;
+}
+form button i{
+	background: #4d1933;
+	color:wheat;
+	padding: 12px 12px;
+	margin:0px 0px;
+	border:1px solid wheat;
+}
+.textinfo{
+	color:#4d1933 !important;
+}
+
+nav {
+    background: #4d1933;
+}
+nav.navbar{
+	
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+	z-index:3;
+}
+
+.navbar-nav{
+	
+	margin:0px auto;
+	
+}
+.nav-link{
+	font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+.access{
+	
+	padding: 10px 15px;
+}
+.access #login
+{
+	cursor: pointer;
+    outline: none;
+    padding: 0px 15px;
+    margin:5px;
+     
+}
+.access #ragister
+{
+	cursor: pointer;
+     outline: none;
+    padding: 0px 15px;
+    
+}
+
+#copyright{
+	background:#4d1933;
+	padding:10px;
+	color:white;
+}
+
+/*course Details Page*/
+
+  .course_header
+{
+	background:#4d1933;
+	margin:0px auto;
+	padding:20px;
+}
+.course_img {
+    width:30%;
+	margin:10px 10px;
+	
+}
+.course_img img{
+    height:100%;
+    width:100%;
+    border-radius: 20%;
+}
+.course_desc{
+	color:white;
+	padding:20px;
+	width:65%;
+	margin:10px 10px;
+
+}
+.course_details{
+	padding: 15px;
+	
+}
+.course_enroll{
+	margin: 10px auto;
+	padding: 5px;
+	display: flex;
+	justify-content: space-around;
+}
+.course_enroll button{
+		border:none;
+	outline:none;
+}
+.course_enroll button h4{
+	background: #571414;
+	margin:0px auto;
+	padding: 10px 20px;
+	color:#f2e7dc;
+	}
+
+
+
+
+
+
+	.course_content{
+  		width:100%;
+  		
+  		background: #72f2bd;
+  	}
+  	.course_content::after{
+  		content: '';
+  		clear: both;
+  		display: table;
+
+  	}
+    .course_currilum{
+    	float: left;
+    	width:50%;
+    	
+       
+    }
+    .course_instructor{	
+    	width:45%;
+        float: right;
+      
+        padding: 5px;
+        color: #022114;
+      
+    }
+    .left-side h4{  
+    text-align: center;
+    padding: 5px 0px;
+    background: #733530;
+    color: white;
+        
+    }
+        #section_list{
+            list-style: none;
+            
+            margin-bottom: 5px;
+
+
+    }
+    .section-header button{
+        width:100%;
+        justify-content: space-between;
+        display: flex;
+        border: none;
+    }
+    .section-header button:focus{
+    	outline:none;
+
+    }
+    .section-header button:hover {
+        text-decoration: none;
+
+      }
+      .section-header button:focus {
+        text-decoration: none;
+
+    }
+
+
+.about_ins{
+	font-weight: 500;
+
+}
+
+
+
+
+.ins_img {
+	text-align: center;
+}
+
+.ins_img img{
+	width: 250px;
+	height:200px;
+	border-radius: 50%;
+}
